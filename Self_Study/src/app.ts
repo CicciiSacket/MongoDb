@@ -1,7 +1,7 @@
 import express from 'express'
 import mongoose from 'mongoose'
 import {router as users} from './routes/users'
-export const uri = 'mongodb+srv://Ciccio:Ciccio@firstcluster.adi2n.mongodb.net/FirstDatabase?retryWrites=true&w=majority'
+// export const uri = 'mongodb+srv://Ciccio:Ciccio@firstcluster.adi2n.mongodb.net/FirstDatabase?retryWrites=true&w=majority'
 
 mongoose
   .connect(uri, { useNewUrlParser: true, useUnifiedTopology: true })
